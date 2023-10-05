@@ -1,18 +1,18 @@
 import requests
 
-# API'nin URL'sini belirtin
+# API'nin URL'si
 api_url = "https://jsonplaceholder.typicode.com/posts/1"
 
 try:
-    # GET isteği yapın
+    # GET isteği 
     response = requests.get(api_url)
     
-    # Yanıtın durum kodunu kontrol edin (200, başarılı istek anlamına gelir)
+    
     if response.status_code == 200:
         # JSON verilerini alın
         data = response.json()
         
-        # JSON verilerini işleyin veya ekrana yazdırın
+        
         print("Başlık:", data['title'])
         print("İçerik:", data['body'])
     else:
