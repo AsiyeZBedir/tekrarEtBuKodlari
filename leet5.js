@@ -5,7 +5,7 @@
  * @return {number} - İşlenmiş sonuç.
  */
 var reduce = function(nums, fn, init) {
-    // Başlangıç değeri (init) ile sonucu (res) başlat.
+    // Başlangıç değeri (init) ile sonucu (res) başlatılır.
     let res = init;
 
     // forEach yöntemi ile dizi üzerinde döngü başlatılır.
