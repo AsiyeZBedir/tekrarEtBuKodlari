@@ -1,10 +1,10 @@
 # Verilen DNA dizisi
 dna = 'ATGCATGCTAGCATGCTAGCTAGCTA'
 
-# K-mer uzunluğunu belirle
+# K-mer uzunluğuk
 k = 3
 
-# K-mer sayılarını saklamak için bir sözlük oluştur
+# K-mer sayılarını saklamak için sözlük
 kmer_count = {}
 
 # DNA dizisini tarayarak k-mer'leri bul ve say
