@@ -1,4 +1,3 @@
-# pymongo kütüphanesini içe aktarın
 import pymongo
 
 # MongoDB veritabanına bağlanın (Varsayılan bağlantı URL: mongodb://localhost:27017/)
